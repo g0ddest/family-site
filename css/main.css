@@ -247,6 +247,44 @@ right connector from last child*/
     text-transform: uppercase;
 }
 
+.tree li div.entity.right-wife
+{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    margin-right: -238px;
+}
+
+.tree li div.entity.right-wife .to-child{
+    width: 18px;
+    height: 64px;
+    background-image: url(../img/to-child.png);
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+
+.tree li div.entity.left-wife
+{
+    position: absolute;
+    top: 23px;
+    left: 0px;
+    margin-left: -228px;
+}
+
+.tree li div.entity.left-wife .to-wife{
+    width: 18px;
+    height: 1px;
+    background-image: url(../img/to-wife.png);
+    position: absolute;
+    top: 50px;
+    right: 17px;
+}
+
+.tree li div.entity.baby{
+    margin-top: 10px;
+    margin-right: -220px;
+}
 
 /* ==========================================================================
    Helper classes
