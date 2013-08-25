@@ -93,8 +93,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.layer{
+    text-align: center;
+}
 
+.layer h1{
+    width: 540px;
+    height: 66px;
+    color: transparent;
+    display: inline-block;
+    background-image: url(../img/title.png);
+    margin-top: 15%;
+}
 
+.layer .vine{
+    position: absolute;
+}
+
+.layer .vine.head{
+    background-image: url(../img/vine-top.png);
+    width: 106px;
+    height: 110px;
+    top:5px;
+    left: 5px;
+}
+
+.layer .vine.bottom{
+    background-image: url(../img/vine-bottom.png);
+    width: 106px;
+    height: 110px;
+    bottom:5px;
+    right: 5px;
+}
+
+.tree, .tree *{
+    margin: 0;
+}
+
+ul{
+
+    padding-left: 0;
+
+}
+
+.center{
+    display: inline-block;
+}
+
+.layer .spacer{
+    height: 7px;
+    width: 378px;
+    display: inline-block;
+    background-image: url(../img/line.png);
+}
 
 .tree ul {
     padding-top: 20px; position: relative;
